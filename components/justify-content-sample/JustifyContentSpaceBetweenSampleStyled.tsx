@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { JustifyContentSpaceAroundSampleStyled } from './JustifyContentSpaceAroundSampleStyled';
+import { JustifyContentBaseStyled } from './JustifyContentBaseStyled';
 
-export const JustifyContentSpaceBetweenSampleStyled = styled(JustifyContentSpaceAroundSampleStyled)`
+export const JustifyContentSpaceBetweenSampleStyled = styled(JustifyContentBaseStyled)`
   background-color: ${props => props.theme.colors.primary};
 
   .grid-container {

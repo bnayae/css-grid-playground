@@ -7,7 +7,7 @@ export const Baseline9ItemStyled = styled(Baseline9Item)`
   .grid-item {
     background-color: ${props => props.theme.colors.secondary};
     border: 0.2rem solid #444;
-    padding: 2rem;
+    padding: 1rem;
     font: ${props => props.theme.fonts.subtitle};
     text-align: center;
   }

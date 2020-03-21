@@ -4,6 +4,7 @@ import {
   JustifyContentSpaceAroundSampleStyled,
 } from '../components/justify-content-sample';
 import { JustifyContentSpaceBetweenSampleStyled } from '../components/justify-content-sample/JustifyContentSpaceBetweenSampleStyled';
+import { JustifyContentCenterSampleStyled } from '../components/justify-content-sample/JustifyContentCenterSampleStyled';
 
 const SampleJustifyContentSample: React.FunctionComponent = () => (
   <>
@@ -13,6 +14,8 @@ const SampleJustifyContentSample: React.FunctionComponent = () => (
     <JustifyContentSpaceAroundSampleStyled />
     <h1>Space Between</h1>
     <JustifyContentSpaceBetweenSampleStyled />
+    <h1>Center</h1>
+    <JustifyContentCenterSampleStyled />
   </>
 );
 
