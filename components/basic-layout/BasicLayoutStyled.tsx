@@ -31,7 +31,7 @@ export const BasicLayoutStyled = styled(BasicLayout)`
   }
 
   .grid-container > div {
-    background-color: indianred;
+    background-color: ${props => props.theme.colors.secondary};
     text-align: center;
     padding: 2rem 1rem; /* 2rem vertical, 1rem horizontal (within item area) */
     font-size: 3rem;

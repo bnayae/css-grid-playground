@@ -1,14 +1,5 @@
-import Link from "next/link";
+import { HomeStyled } from "../components/home";
 
-const IndexPage = () => (
-  <>
-    <h1>Home</h1>
-    <p>
-      <Link href="/sample-1-basic-layout">
-        <a>Basic Layout</a>
-      </Link>
-    </p>
-  </>
-);
+const IndexPage = () => <HomeStyled />;
 
 export default IndexPage;
