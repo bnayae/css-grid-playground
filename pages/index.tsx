@@ -1,15 +1,14 @@
 import Link from "next/link";
-import Layout from "../components/Layout";
 
 const IndexPage = () => (
-  <Layout title="CSS Grid">
+  <>
     <h1>Home</h1>
     <p>
-      <Link href="/about">
-        <a>About</a>
+      <Link href="/sample-1-basic-layout">
+        <a>Basic Layout</a>
       </Link>
     </p>
-  </Layout>
+  </>
 );
 
 export default IndexPage;
