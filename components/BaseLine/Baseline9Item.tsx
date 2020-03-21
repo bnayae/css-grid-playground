@@ -1,8 +1,8 @@
-import React from "react";
-import Link from "next/link";
-import { IClassNameProps } from "../../interfaces";
+import React from 'react';
+import Link from 'next/link';
+import { IClassNameProps } from '../../interfaces';
 
-export const GapSample = ({ className }: IClassNameProps) => {
+export const Baseline9Item = ({ className }: IClassNameProps) => {
   return (
     <div className={className}>
       <div className="grid-container">

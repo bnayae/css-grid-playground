@@ -13,7 +13,17 @@ export const Home = ({ className }: IClassNameProps) => (
       </p>
       <p className="content">
         <Link href="/sample-2-gap-layout">
-          <a>Gap Layout</a>
+          <a>Gap</a>
+        </Link>
+      </p>
+      <p className="content">
+        <Link href="/sample-3-inner-grid-layout">
+          <a>Inner Grid</a>
+        </Link>
+      </p>
+      <p className="content">
+        <Link href="/sample-3-justify-content-sample">
+          <a>Justify Content</a>
         </Link>
       </p>
     </div>
