@@ -19,4 +19,13 @@ export const SpecificSpanStyled = styled(Baseline9ItemStyled)`
   .C {
     grid-row: span 3;
   }
+
+  .G {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+  }
+
+  .I {
+    grid-column: span 3;
+  }
 `;
