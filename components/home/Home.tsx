@@ -22,8 +22,18 @@ export const Home = ({ className }: IClassNameProps) => (
         </Link>
       </p>
       <p className="content">
-        <Link href="/sample-4-align-content-sample">
+        <Link href="/sample-4-justify-content">
+          <a>Justify Content</a>
+        </Link>
+      </p>
+      <p className="content">
+        <Link href="/sample-5-align-content">
           <a>Align Content</a>
+        </Link>
+      </p>
+      <p className="content">
+        <Link href="/sample-6-specific-span">
+          <a>Specific span</a>
         </Link>
       </p>
     </div>
