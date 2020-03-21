@@ -3,6 +3,8 @@ import { IClassNameProps } from '../../interfaces';
 import { JustifyContentSpaceEvenlySampleStyled, JustifyContentSpaceAroundSampleStyled } from '.';
 import { JustifyContentSpaceBetweenSampleStyled } from './JustifyContentSpaceBetweenSampleStyled';
 import { JustifyContentCenterSampleStyled } from './JustifyContentCenterSampleStyled';
+import { JustifyContentStartSampleStyled } from './JustifyContentStartSampleStyled';
+import { JustifyContentEndSampleStyled } from './JustifyContentEndSampleStyled';
 
 export const JustifyContentLayout = ({ className }: IClassNameProps) => {
   return (
@@ -23,6 +25,14 @@ export const JustifyContentLayout = ({ className }: IClassNameProps) => {
         <div className="child-grid-container">
           <h1 className="title">Center</h1>
           <JustifyContentCenterSampleStyled className="sample" />
+        </div>
+        <div className="child-grid-container">
+          <h1 className="title">Start</h1>
+          <JustifyContentStartSampleStyled className="sample" />
+        </div>
+        <div className="child-grid-container">
+          <h1 className="title">End</h1>
+          <JustifyContentEndSampleStyled className="sample" />
         </div>
       </div>
     </div>

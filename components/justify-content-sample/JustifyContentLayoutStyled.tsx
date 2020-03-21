@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import { JustifyContentLayout } from './JustifyContentLayout';
 
 export const JustifyContentLayoutStyled = styled(JustifyContentLayout)`
-  background-color: ${props => props.theme.colors.primary};
-
   .parent-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -15,6 +13,7 @@ export const JustifyContentLayoutStyled = styled(JustifyContentLayout)`
   }
 
   .child-grid-container {
+    background-color: ${props => props.theme.colors.primary};
     display: grid;
     grid-template-areas:
       'title'
