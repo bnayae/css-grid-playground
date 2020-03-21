@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { IClassNameProps } from "../../interfaces";
+import Link from 'next/link';
+import { IClassNameProps } from '../../interfaces';
 
 export const Home = ({ className }: IClassNameProps) => (
   <div className={className}>
@@ -22,8 +22,8 @@ export const Home = ({ className }: IClassNameProps) => (
         </Link>
       </p>
       <p className="content">
-        <Link href="/sample-3-justify-content-sample">
-          <a>Justify Content</a>
+        <Link href="/sample-4-align-content-sample">
+          <a>Align Content</a>
         </Link>
       </p>
     </div>
