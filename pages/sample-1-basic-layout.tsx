@@ -1,18 +1,8 @@
 import React from "react";
-import Link from "next/link";
+import { BasicLayoutStyled } from "../components/basic-layout/BasicLayoutStyled";
 
-const Sample1BasicLayout: React.FunctionComponent = () => (
-  <div className="grid-container">
-    <div className="item1">Header</div>
-    <div className="item2">
-      <Link href="/">
-        <a>Go Home</a>
-      </Link>
-    </div>
-    <div className="item3">Main</div>
-    <div className="item4">Right</div>
-    <div className="item5">Footer</div>
-  </div>
+const Sample1BasicLayoutPage: React.FunctionComponent = () => (
+  <BasicLayoutStyled />
 );
 
-export default Sample1BasicLayout;
+export default Sample1BasicLayoutPage;
