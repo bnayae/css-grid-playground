@@ -1,5 +1,5 @@
 import React from 'react';
-import { GapSampleStyled } from '../components/gap-sample';
+import { GapSampleStyled } from '../../../components/gap-sample';
 
 const Sample2GapLayoutPage: React.FunctionComponent = () => (
   <>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { JustifyContentLayoutStyled } from '../components/justify-content-sample/JustifyContentLayoutStyled';
+import { JustifyContentLayoutStyled } from '../../../components/justify-content-sample/JustifyContentLayoutStyled';
 
 const SampleJustifyContentSample: React.FunctionComponent = () => <JustifyContentLayoutStyled />;
 

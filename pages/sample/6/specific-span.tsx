@@ -1,5 +1,5 @@
 import React from 'react';
-import { SpecificSpanStyled } from '../components/specific-span';
+import { SpecificSpanStyled } from '../../../components/specific-span';
 
 const SampleSpecificSpanStyled: React.FunctionComponent = () => <SpecificSpanStyled />;
 
