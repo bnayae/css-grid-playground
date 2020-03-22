@@ -36,6 +36,11 @@ export const Home = ({ className }: IClassNameProps) => (
           <a>Specific span</a>
         </Link>
       </p>
+      <p className="content">
+        <Link href="/sample-7-standard-layout">
+          <a>Standard Layout</a>
+        </Link>
+      </p>
     </div>
   </div>
 );
