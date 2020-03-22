@@ -20,6 +20,7 @@ export const StandardLayoutStyled = styled(StandardLayout)`
     grid-area: menu;
     background: #39e;
     min-width: 30rem;
+    padding: 1rem;
   }
   .menu-close {
     display: none;
@@ -34,6 +35,7 @@ export const StandardLayoutStyled = styled(StandardLayout)`
   .footer {
     grid-area: footer;
     background: #ea8;
+    padding: 0.1rem;
   }
 
   .grid-container {

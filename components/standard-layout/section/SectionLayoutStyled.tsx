@@ -11,5 +11,6 @@ export const SectionLayoutStyled = styled(SectionLayout)`
     /* grid-template-rows: 88vh; */
     /* grid-auto-rows: 88vh; */
     grid-template-areas: 'page-margin page-section page-margin';
+    margin: 1rem;
   }
 `;
