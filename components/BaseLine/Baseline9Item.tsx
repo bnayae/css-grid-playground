@@ -14,11 +14,12 @@ export const Baseline9Item = ({ className }: IClassNameProps) => {
         <div className="grid-item F">6</div>
         <div className="grid-item G">7</div>
         <div className="grid-item H">8</div>
-        <div className="grid-item I">
-          <Link href="/">
-            <a>Go Home</a>
-          </Link>
-        </div>
+        <div className="grid-item I">9</div>
+      </div>
+      <div className="link">
+        <Link href="/">
+          <a>Go Home</a>
+        </Link>
       </div>
     </div>
   );

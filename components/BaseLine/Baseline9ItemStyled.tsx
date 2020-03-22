@@ -11,4 +11,12 @@ export const Baseline9ItemStyled = styled(Baseline9Item)`
     font: ${props => props.theme.fonts.subtitle};
     text-align: center;
   }
+
+  .link {
+    padding: 0.1rem;
+    font-size: 2.5rem;
+    color: #bbb;
+    text-align: left;
+    padding: 1rem;
+  }
 `;
