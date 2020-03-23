@@ -41,6 +41,11 @@ export const Home = ({ className }: IClassNameProps) => (
           <a>Standard Layout</a>
         </Link>
       </p>
+      <p className="content">
+        <Link href="/sample/8/wrap-panel">
+          <a>Wrap Panel</a>
+        </Link>
+      </p>
     </div>
   </div>
 );

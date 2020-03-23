@@ -7,10 +7,17 @@ export const SectionLayoutStyled = styled(SectionLayout)`
 
   .grid-container-page {
     display: grid;
-    grid-template-columns: 1fr 192rem 1fr;
+    grid-template-columns: minmax(1rem, 1fr) 100rem minmax(1rem, 1fr);
     /* grid-template-rows: 88vh; */
     /* grid-auto-rows: 88vh; */
     grid-template-areas: 'page-margin page-section page-margin';
     margin: 1rem;
+    /* align-items: stretch; */
+  }
+
+  .page-margin {
+    background: rgba(3,3,3, 0.05);
+    /* background-color: ${props => props.theme.colors.primary};
+    opacity: 0.6; */
   }
 `;

@@ -6,9 +6,9 @@ export const SectionLayout = ({ className, children }: IClassNameProps & IChildr
     <div className={className}>
       <div className="main">
         <div className="grid-container-page">
-          <div className="margin" />
+          <div className="page-margin" />
           <div className="page-section">{children}</div>
-          <div className="margin" />
+          <div className="page-margin" />
         </div>
       </div>
     </div>
