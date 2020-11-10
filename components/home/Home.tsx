@@ -22,34 +22,22 @@ export const Home = ({ className }: IClassNameProps) => (
         <img className="img" src="/images/gap-layout.jpg" alt="" />
       </p>
       <p className="content">
-        <Link href="/sample/3/inner-grid-layout">
-          <a>Inner Grid</a>
-        </Link>
-        <img className="img" src="/images/inner-grid-layout.jpg" alt="" />
+        <div className="emphasis">
+          <span className="emphasis-sign">✱</span>
+          <Link href="/sample/6/specific-span">
+            <a>Specific span</a>
+          </Link>
+        </div>
+        <img className="img" src="/images/specific-span.jpg" alt="" />
       </p>
       <p className="content">
-        <Link href="/sample/4/justify-content">
-          <a>Justify Content</a>
-        </Link>
-        <img className="img" src="/images/justify-content.jpg" alt="" />
-      </p>
-      <p className="content">
-        <Link href="/sample/5/align-content">
-          <a>Align Content</a>
-        </Link>
-        <img className="img" src="/images/align-content.jpg" alt="" />
-      </p>
-      <p className="content">
-        <Link href="/sample/6/specific-span">
-          <a>Specific span</a>
-        </Link>
-        <img className="img" src="/images/align-content.jpg" alt="" />
-      </p>
-      <p className="content">
-        <Link href="/sample/7/standard-layout">
-          <a>Standard Layout</a>
-        </Link>
-        <img className="img" src="/images/standard-layout.jpg" alt="" />
+        <div className="emphasis">
+          <span className="emphasis-sign">✱</span>
+          <Link href="/sample/6/declarative-span">
+            <a>Declarative span</a>
+          </Link>
+        </div>
+        <img className="img" src="/images/declarative-span.jpg" alt="" />
       </p>
       <p className="content">
         <div className="emphasis">
@@ -68,6 +56,30 @@ export const Home = ({ className }: IClassNameProps) => (
           </Link>
         </div>
         <img className="img" src="/images/wrap-panel.jpg" alt="" />
+      </p>
+      <p className="content">
+        <Link href="/sample/7/standard-layout">
+          <a>Standard Layout</a>
+        </Link>
+        <img className="img" src="/images/standard-layout.jpg" alt="" />
+      </p>
+      <p className="content">
+        <Link href="/sample/3/inner-grid-layout">
+          <a>Inner Grid</a>
+        </Link>
+        <img className="img" src="/images/inner-grid-layout.jpg" alt="" />
+      </p>
+      <p className="content">
+        <Link href="/sample/4/justify-content">
+          <a>Justify Content</a>
+        </Link>
+        <img className="img" src="/images/justify-content.jpg" alt="" />
+      </p>
+      <p className="content">
+        <Link href="/sample/5/align-content">
+          <a>Align Content</a>
+        </Link>
+        <img className="img" src="/images/align-content.jpg" alt="" />
       </p>
     </div>
   </div>
